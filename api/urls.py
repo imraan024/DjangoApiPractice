@@ -4,7 +4,7 @@ from .views import HomeView, UpdateProduct,ShowProduct, ApiOverView, ShowAll,Cre
 
 urlpatterns = [
     
-    #path('', HomeView, name="home" ),
+    path('home/', HomeView, name="home" ),
     path('', ApiOverView, name="api" ),
     path('product-list/', ShowAll, name='products'),
     path('product-detail/<int:pk>', ShowProduct, name="product"),

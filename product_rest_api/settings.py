@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'product_rest_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME' : 'api',
+        'NAME' : 'ApiPractice',
         'USER' : 'root',
         'PASSWORD' : '',
         'HOST' : '127.0.0.1',
