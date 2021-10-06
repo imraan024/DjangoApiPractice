@@ -78,17 +78,8 @@ WSGI_APPLICATION = 'product_rest_api.wsgi.application'
 
 DATABASES = {
     'default': {
-<<<<<<< HEAD
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
-=======
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME' : 'ApiPractice',
-        'USER' : 'root',
-        'PASSWORD' : '',
-        'HOST' : '127.0.0.1',
-        'PORT' : '3306',
->>>>>>> 9c69cd86133c3c8e2c77bf96ee1beb943557f444
     }
 }
 
