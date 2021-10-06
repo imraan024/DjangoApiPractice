@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
- 
+
 from pathlib import Path
 import os
 
@@ -78,12 +78,8 @@ WSGI_APPLICATION = 'product_rest_api.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME' : 'api',
-        'USER' : 'root',
-        'PASSWORD' : '',
-        'HOST' : '127.0.0.1',
-        'PORT' : '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
