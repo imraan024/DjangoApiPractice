@@ -15,9 +15,9 @@ def HomeView(request):
 def ApiOverView(request):
     api_urls = {
         'List' : '/product-list/',
-        'Detail View' : '/product_detail/<int:id>',
+        'Detail View' : '/product-detail/<int:id>',
         'create' : '/create/',
-        'update' : '/update-product/',
+        'update' : '/update-product/<int:id>',
     }
     return Response(api_urls)
     
